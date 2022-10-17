@@ -7,7 +7,7 @@ const { ctrlWrapper } = require("../../helpers");
 const { validateBody, isValidId, authenticate } = require("../../middlewares");
 
 // const schemas = require("../../schemas/contact");
-const { schemas } = require("..//../models/contact");
+const { schemas } = require("../../models/contact");
 
 const router = express.Router();
 
